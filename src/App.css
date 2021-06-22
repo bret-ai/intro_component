@@ -1,0 +1,31 @@
+.container {
+  background-image: url(./assets/images/bg-intro-mobile.png);
+  flex-grow: 1;
+  display: flex;
+  min-width: 100%;
+  flex-direction: column;
+  height: 100vh;
+  align-items: center;
+  justify-content: space-between;
+}
+
+@media screen and (min-width: 376px) and (max-width: 3000px) {
+  .container {
+    background: url(./assets/images/bg-intro-desktop.png);
+    flex-direction: row;
+    justify-content: space-between;
+    flex-direction: row;
+  }
+}
+
+.left {
+  flex: 50%;
+  height: 100%;
+  width: 100%;
+}
+
+.right {
+  flex: 50%;
+  height: 100%;
+  width: 100%;
+}

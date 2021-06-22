@@ -1,0 +1,11 @@
+body {
+  margin: 0;
+  background-color: hsl(0, 100%, 80%);
+}
+
+@font-face {
+  font-family: 'Poppins';
+  src: local('Poppins'),
+    url('./assets/fonts/Poppins/Poppins-Regular.ttf') format('truetype');
+  /* font-weight: bold; */
+}
